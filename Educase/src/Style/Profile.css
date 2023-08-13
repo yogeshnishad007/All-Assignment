@@ -1,0 +1,48 @@
+.heading{
+
+      font-weight: 700;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+.child{
+
+    background-color: rgb(241, 241, 248);
+}
+.child>h4{
+     
+    background-color: rgb(240, 226, 209);
+    margin-top: -.5rem;
+    padding: 10px 10px;
+
+}
+
+.info-box{
+     
+    display: flex;
+    gap: 10px;
+}
+
+.image-box{
+    margin-left: .8rem;
+}
+.image-box>img{
+     width: 3rem;
+     border-radius: 50%;
+}
+
+/* .image-box{
+    background-color: antiquewhite;
+} */
+
+.info-box>div>p{
+     font-size: 12px;
+     margin-top: -.1rem;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.info-box+div>p{
+    font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
