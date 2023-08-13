@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import "../Style/Login.css"
 
 const Login = () => {
@@ -18,8 +18,11 @@ const Login = () => {
           </div>
 
           <div className="link">
-           
-              <button className="btn purple">Login</button>
+
+                    <Link to="/profile">
+                        <button className="btn purple">Login</button> 
+                    </Link>
+              
   
           </div>
         </div>
