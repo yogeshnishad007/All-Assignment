@@ -14,3 +14,7 @@ DEPLOYED LINK :-https://educase-project-two.vercel.app/
 <img src="https://cdn.iconscout.com/icon/free/png-256/css-alt-3521367-2944811.png?w=256&f=avif" width='80' alt="CSS" />
 <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png?w=256&f=avif" width='80' alt="REACT" />
 </p>
+
+
+
+"C:\Users\shris\OneDrive\Desktop\Screenshot (3144).png"
