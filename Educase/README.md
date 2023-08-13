@@ -3,7 +3,7 @@ Run Locally :- npm run dev
 
 PROJECT DESCRIPTION :- Build Design of Home Page, Login page, SingUp Page,User Profile
 
-
+ Visit To Page :- Home Page --> Create Account --> Signup Button --> Login Button --> User Profile
 
 DEPLOYED LINK :-https://educase-project-two.vercel.app/
 
@@ -17,4 +17,3 @@ DEPLOYED LINK :-https://educase-project-two.vercel.app/
 
 
 
-"C:\Users\shris\OneDrive\Desktop\Screenshot (3144).png"
