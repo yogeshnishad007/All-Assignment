@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "../Style/Login.css";
-
+import "../Style/Common.css"
+import Button from "./Button"
 const Login = () => {
   return (
     <div>
@@ -19,7 +20,7 @@ const Login = () => {
 
           <div className="link">
             <Link to="/profile">
-              <button className="btn purple">Login</button>
+              <Button className="btn purple" Name="Login"/>
             </Link>
           </div>
         </div>

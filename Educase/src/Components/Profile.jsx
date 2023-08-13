@@ -1,4 +1,5 @@
 import "../Style/Profile.css";
+import "../Style/Common.css"
 const Profile = () => {
   return (
     <div>
@@ -23,7 +24,7 @@ const Profile = () => {
           <div>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae
-              tenetur temporibus ullam, et qui voluptatibus laboriosam{" "}
+              tenetur temporibus ullam, et qui voluptatibus laboriosam
             </p>
           </div>
         </div>
