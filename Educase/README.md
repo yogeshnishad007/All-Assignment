@@ -1,5 +1,5 @@
 # React + Vite
-Run LocalHost :- npm run dev
+Run Locally :- npm run dev
 
 PROJECT DESCRIPTION :- Build Design of Home Page, Login page, SingUp Page,User Profile
 
