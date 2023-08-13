@@ -1,6 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+DEPLOYED LINK :-https://educase-project-two.vercel.app/
 
 <h2>Tech Stacks</h2>
 <p><img src="https://cdn.iconscout.com/icon/free/png-256/html-2752158-2284975.png?w=256&f=avif" width='80' alt="HTML" /> 
