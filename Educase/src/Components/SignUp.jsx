@@ -3,11 +3,13 @@ import "../Style/Signup.css";
 import "../Style/Common.css"
 import Button from "./Button"
 
+
 const SignUp = () => {
   return (
     <div>
       <div className="parent-container">
         <div className="child">
+           
           <h2>Signup to your PopX account</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
