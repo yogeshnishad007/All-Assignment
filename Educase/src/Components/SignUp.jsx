@@ -3,7 +3,6 @@ import "../Style/Signup.css";
 import "../Style/Common.css"
 import Button from "./Button"
 
-
 const SignUp = () => {
   return (
     <div>

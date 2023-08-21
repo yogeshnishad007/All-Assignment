@@ -1,0 +1,39 @@
+
+body{
+  background-color: aliceblue;
+  color: black;
+}
+.time-picker {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .time-picker label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .time-picker input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 2px solid #666;
+    outline: none;
+    margin: 0;
+  }
+  
+  .time-picker input[type="radio"]:checked {
+    border-color: #007bff;
+  }
+  
+  .time-picker label.disabled {
+    pointer-events: none; /* Disable click events on the label */
+    opacity: 0.5; /* Reduce opacity for the disabled time slots */
+  }
+  

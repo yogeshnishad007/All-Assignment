@@ -1,35 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import React, { useState } from 'react';
+// import TicketSlot from "./Components/TicketSlot";
+// import TicketDropDown from "./Components/TicketDropDown";
+// import TicketCalculator from "./Components/TicketCalculator";
 
-function App() {
-  const [count, setCount] = useState(0)
+// const App = () => {
+//   const [selectedTickets, setSelectedTickets] = useState([]);
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Nexus Task</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+//   const handleSelectTicket = (slotNumber) => {
+//     // Implement your logic to get available tickets for the selected slot
+//     const availableTickets = ['Ticket A', 'Ticket B', 'Ticket C'];
+//     setSelectedTickets([...selectedTickets, ...availableTickets]);
+//   };
+
+//   return (
+//     <div className="app-container">
+//       <div className="slots-container">
+//         <TicketSlot
+//           slotNumber={1}
+//           availableTickets={['Ticket A', 'Ticket B', 'Ticket C']}
+//           onSelect={handleSelectTicket}
+//         />
+//         {/* Add more TicketSlot components for other slots */}
+//       </div>
+//       <div className="info-container">
+//         <TicketDropDown selectedTickets={selectedTickets} />
+//         <TicketCalculator selectedTickets={selectedTickets} />
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default App;
+
+
+import Section from "./Components/Section"
+
+const App =()=>{
+
+     return(
+      <>
+            <Section/>
+      </>
+     )
 }
-
 export default App
