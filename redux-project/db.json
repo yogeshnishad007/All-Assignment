@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bob@example.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "title": "Hello World",
+      "body": "This is the first post."
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Redux Tutorial",
+      "body": "Learn Redux with this tutorial."
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "title": "Advanced Redux",
+      "body": "Exploring advanced Redux concepts."
+    }
+  ]
+}

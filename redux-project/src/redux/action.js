@@ -1,8 +1,19 @@
-import {GET} from "./actionTypes"
+import {GET,POST} from "./actionTypes"
 
-export const getProduct=(data)=>{
+export const getData=(data)=>{
 
        return{
-             type:GET,payload:data
+             type:GET,
+             payload:data
        }
 }
+
+
+  
+  export const postData = (posts) => {
+    return {
+      type: POST,
+      payload: posts,
+    };
+  };
+  

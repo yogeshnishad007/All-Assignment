@@ -1,1 +1,2 @@
-export const GET="data/get"
+export const GET="get";
+export const POST="post"
