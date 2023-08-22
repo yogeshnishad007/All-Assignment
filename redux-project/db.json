@@ -34,6 +34,30 @@
       "userId": 1,
       "title": "Advanced Redux",
       "body": "Exploring advanced Redux concepts."
+    },
+    {
+      "userId": "12",
+      "title": "Hello",
+      "body": "Here New Value",
+      "id": 4
+    },
+    {
+      "userId": "45",
+      "title": "My name",
+      "body": "here is new",
+      "id": 5
+    },
+    {
+      "userId": "56",
+      "title": "Post data",
+      "body": "my new post data",
+      "id": 6
+    },
+    {
+      "userId": "20",
+      "title": "Hii",
+      "body": "hiiii",
+      "id": 7
     }
   ]
 }

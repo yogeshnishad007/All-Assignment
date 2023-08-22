@@ -8,7 +8,7 @@ const Home = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    fetch("http://localhost:3001/users")
+    fetch("http://localhost:3001/posts")
       .then((res) => res.json())
       .then((data) => dispatch(getData(data)))
       .catch((error) => console.error("Error fetching data:", error));
@@ -19,7 +19,7 @@ const Home = () => {
       {Data.map((el) => {
         return (
           <>
-            <h5>{el.name}</h5>
+            <h5>{el.title}</h5>
           </>
         );
       })}

@@ -6,12 +6,12 @@ const initialState = {
     posts: [],
   };
   
-  export const reducer = (state = initialState, action) => {
-    switch (action.type) {
+  export const reducer = (state = initialState, {type,payload}) => {
+    switch (type) {
       case GET:
-        return { ...state, users: action.payload };
+        return { ...state, users: payload };
       case POST:
-        return { ...state, posts: action.payload };
+        return { ...state, posts: payload };
       default:
         return state;
     }
