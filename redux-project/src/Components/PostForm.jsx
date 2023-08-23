@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { postData } from "../redux/action";
+import "../App.css"
 
 const PostForm = () => {
   const [post, setPost] = useState({
@@ -43,7 +44,7 @@ const PostForm = () => {
   };
 
   return (
-    <div>
+    <div className="box">
       <h2>Create a New Post</h2>
       <input
         type="text"

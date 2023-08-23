@@ -3,3 +3,19 @@
   display: flex;
   justify-content: space-around;
 }
+
+.box{
+
+     position: absolute;
+     left:30%;
+     top:30%;
+     width: 40%;
+     border: 1px solid red;
+}
+.box>input{
+  width: 98%;
+}
+
+.box>textarea{
+  width: 98%;
+}
