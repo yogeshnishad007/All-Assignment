@@ -14,8 +14,10 @@
 }
 .box>input{
   width: 98%;
+  margin-bottom: 1rem;
 }
 
 .box>textarea{
   width: 98%;
+  margin-bottom: 1rem;
 }
