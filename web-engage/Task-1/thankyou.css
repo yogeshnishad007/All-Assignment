@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.thankyou-container {
+
+    position:absolute;
+    left: 25%;
+    top: 20%;
+    height: 50%;
+    width: 40%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.thankyou-container>p {
+    margin-top: 20px;
+     
+    font-weight:bold;
+    background-color:black;
+    color: white;
+
+    height: 20px;
+    text-align: center;
+}
+
+
+.user-container{
+    
+       margin-top: 50px;
+    
+}
+
+
+.tag{
+	font-weight:bold;
+    
+   
+}
+
+#display-email,#display-mobile{
+       
+    font-weight:500;
+    margin-left: 10px;
+}
+
+
+@media only screen and (max-width: 390px), only screen and (max-device-width: 844px) {
+
+    .thankyou-container {
+        position: absolute;
+        left: 0%;
+        height: 50%;
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+
+    .thankyou-container>p {
+         width: 90%;
+        background-color: white;
+        color: black;
+        
+    }
+
+}

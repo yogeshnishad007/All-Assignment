@@ -73,7 +73,29 @@ button {
 
     input,button{
          margin-bottom: 10px;
-         margin-top: 10px;
+    }
+    
+    #email{
+        height: 30px;
+        width: 209px;
+   }
+
+}
+
+
+
+
+@media only screen and (max-width: 780px), only screen and (max-device-width: 1024px) {
+
+       
+
+    input,button{
+         margin-bottom: 20px;
+    }
+
+    select{
+         
+         margin-top: 20px;
     }
 
 
