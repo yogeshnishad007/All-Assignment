@@ -17,19 +17,19 @@ body, html {
 
 
 #country-code{
-    width: 20px;
+    width: 48px;
 }
 
 #mobile{
 
     height: 30px;
-    width: 189px;
+    width: 162px;
 }
 
 #email{
      
      height: 30px;
-     width: 205px;
+     width: 207px;
 }
 #country-code{
     height: 35px;
@@ -74,7 +74,7 @@ button {
     input,button{
          margin-bottom: 10px;
     }
-    
+
     #email{
         height: 30px;
         width: 209px;
