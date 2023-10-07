@@ -3,13 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task-1</title>
+    <title>Survey Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="survey-container">
+        <form id="survey-form" method="post">
+            <!-- <label for="email">Email:</label> -->
+            <input placeholder="Enter Email" type="email" id="email" required><br>
+            
+            <!-- <label for="country-code">Country Code:</label> -->
+            
+            <!-- <label for="mobile">Mobile:</label> -->
+            
+            <select id="country-code" required>
+                <option value="+1">+1 (USA)</option>
+                <option value="+44">+44 (UK)</option>
+                <option value="+91">+91 (India)</option>
+         
+            </select>
+            <input placeholder="Enter Mobile Number" type="tel" id="mobile" required><br>
 
-    <h1>Task 1</h1>
-    
-
+            <button type="button" id="talk-to-us">TALK TO US</button>
+        </form>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
