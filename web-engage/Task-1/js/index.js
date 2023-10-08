@@ -1,5 +1,5 @@
 document.getElementById('talk-to-us').addEventListener('click', function() {
-    alert("ok")
+   
     const email = document.getElementById('email').value;
     const countryCode = document.getElementById('country-code').value;
     const mobile = document.getElementById('mobile').value;
