@@ -9,8 +9,9 @@
 <body>
     <div class="survey-container">
         <form id="survey-form" method="post">
-           
+            
             <input placeholder="Enter Email" type="email" id="email" required><br>
+           
 
             <select id="country-code" required>
                 <option value="+1">+1 (USA)</option>
@@ -27,6 +28,8 @@
 
     <div class="error-container">
           <p class="error-msg"></p>
+          <span id="email-err"></span>
+          <span id="mobile-err"></span>
     </div>
     <script src="./js/index.js"></script>
 </body>
